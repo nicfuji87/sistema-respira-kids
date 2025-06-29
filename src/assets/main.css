@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Desabilitar rolagem elástica */
+html, body {
+  overscroll-behavior: none;
+}
+
+/* Desabilitar rolagem elástica em dispositivos touch */
+* {
+  -webkit-overflow-scrolling: auto;
+}
